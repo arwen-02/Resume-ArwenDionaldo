@@ -1,0 +1,541 @@
+body{
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.profile{
+  height: 90px;
+  border: solid maroon 10px;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 10px;
+}
+.Personal_Information{
+  position: absolute;
+  background-color: whitesmoke;
+  width: 90%;
+  height: 199px;
+  margin-top: 110px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
+}
+.name{
+  position: absolute;
+  font-size: 22px;
+  margin-top: 0;
+  width: 60%;
+  height: 30px;
+  background-color: maroon;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  
+}
+.contact{
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  border: solid maroon 5px;
+}
+.contact_me{
+  position: absolute;
+  top: 15px;
+  right: 21px;
+  color: white;
+  font-size: 10px;
+  width: 17%;
+  padding: 4px;
+  background-color: maroon;
+  text-align: center;
+  border-radius: 15px;
+}
+.line3{
+  position: absolute;
+  width: 1.50px;
+  height: 92%;
+  background-color: maroon;
+  border: none;
+  top: center;
+  right: 30%;
+}
+.p_logo{
+  position: absolute;
+  top: 59px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.number{
+  position: absolute;
+  top: 50px;
+  right: 35px;
+  font-size: 10px;
+  color: black;
+}
+.fb_logo{
+  position: absolute;
+  top: 79px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.fb_name{
+  position: absolute;
+  top: 80px;
+  right: 35px;
+  font-size: 10px;
+  color: black;
+}
+.gmail_logo{
+  position: absolute;
+  top: 100px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+}
+.email{
+  position: absolute;
+  top: 100px;
+  right: 35px;
+  font-size: 10px;
+  color: black;
+}
+.github_logo{
+  position: absolute;
+  top: 120px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.github_account{
+  position: absolute;
+  top: 120px;
+  right: 35px;
+  font-size: 10px;
+  color: black;
+}
+.Introduction{
+  position: absolute;
+  top: 5px;
+  left: 55px;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  width: 40%;
+  padding: 4px;
+  background-color: maroon;
+  text-align: center;
+  border-radius: 15px;
+}
+.Introduce{
+  position: absolute;
+  background-color: white;
+  width: 59.50%;
+  height: 100px;
+  top: 22px;
+  left: 20px;
+  display: flex;
+  font-size: 12px;
+  text-align: justify;
+  text-indent: 30px;
+  line-height: 1.26;
+}
+.container{
+  position: absolute;
+  width: 90%;
+  height: 520px;
+  margin: 320px 20px 0;
+  background-color: white;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: solid maroon 5px;
+}
+.Education_cont{
+  position: absolute;
+  width: 55%;
+  height: 310px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  border: solid maroon 2px;
+}
+.Education{
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  width: 55%;
+  background-color: maroon;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+}
+.Primary{
+  position: absolute;
+  font-size: 15px;
+  color: maroon;
+  margin-top: 45px;
+  left: 10px;
+}
+.OCCES{
+  position: absolute;
+  font-size: 11px;
+  color: black;
+  margin-top: 65px;
+  left: 20px;
+}
+.Year_1{
+  position: absolute;
+  font-size: 8.50px;
+  color: maroon;
+  margin-top: 80px;
+  left: 23px;
+}
+.Secondary{
+  position: absolute;
+  font-size: 15px;
+  color: maroon;
+  margin-top: 95px;
+  left: 10px;
+}
+.Junior{
+  position: absolute;
+  font-size: 13px;
+  color: darkgreen;
+  margin-top: 115px;
+  left: 15px;
+}
+.MONHS_1{
+  position: absolute;
+  font-size: 11px;
+  color: black;
+  margin-top: 130px;
+  left: 20px;
+}
+.Senior{
+  position: absolute;
+  font-size: 13px;
+  color: darkgreen;
+  margin-top: 145px;
+  left: 15px;
+}
+.MONHS_2{
+  position: absolute;
+  font-size: 11px;
+  color: black;
+  margin-top: 160px;
+  left: 20px;
+}
+.HUMMS{
+  position: absolute;
+  font-size: 10px;
+  color: black;
+  margin-top: 170px;
+  left: 20px;
+}
+.Year_2{
+  position: absolute;
+  font-size: 8.50px;
+  color: maroon;
+  margin-top: 185px;
+  left: 23px;
+}
+.Tertiary{
+  position: absolute;
+  font-size: 15px;
+  color: maroon;
+  margin-top: 200px;
+  left: 10px;
+}
+.USTP{
+  position: absolute;
+  font-size: 11px;
+  color: black;
+  margin-top: 220px;
+  left: 20px;
+}
+.BSIT{
+  position: absolute;
+  font-size: 10px;
+  color: black;
+  margin-top: 242px;
+  left: 20px;
+}
+.Year_3{
+  position: absolute;
+  font-size: 8.50px;
+  color: maroon;
+  margin-top: 257px;
+  left: 23px;
+}
+.Work{
+  position: absolute;
+  font-size: 15px;
+  color: maroon;
+  margin-top: 272px;
+  left: 10px;
+}
+.INTERN{
+  position: absolute;
+  font-size: 11px;
+  color: black;
+  margin-top: 292px;
+  left: 20px;
+}
+.Month{
+  position: absolute;
+  font-size: 8.50px;
+  color: maroon;
+  margin-top: 294px;
+  left: 157px;
+}
+.Skill_cont{
+  position: absolute;
+  width: 33%;
+  height: 230px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  border: solid maroon 2px;
+}
+.Skill{
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  margin-top: 10px;
+  width: 55%;
+  background-color: maroon;
+  padding: 5px;
+  text-align: center;
+  border-radius: 20px;
+}
+.Technical{
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  width: 80%;
+  text-align: justify;
+  font-size: 12px;
+  color: maroon;
+}
+.Technical_List{
+  position: absolute;
+  top: 65px;
+  left: 10px;
+  margin: 0;
+  font-size: 10px;
+}
+.Soft{
+  position: absolute;
+  top: 85px;
+  left: 5px;
+  width: 80%;
+  text-align: justify;
+  font-size: 12px;
+  color: maroon;
+}
+.Soft_List{
+  position: absolute;
+  top: 110px;
+  left: 10px;
+  margin: 0;
+  font-size: 10px;
+}
+.Language{
+  position: absolute;
+  top: 130px;
+  left: 5px;
+  width: 80%;
+  text-align: justify;
+  font-size: 12px;
+  color: maroon;
+}
+.Language_List{
+  position: absolute;
+  top: 155px;
+  left: 10px;
+  margin: 0;
+  font-size: 10px;
+}
+.Tool{
+  position: absolute;
+  top: 175px;
+  left: 5px;
+  width: 80%;
+  text-align: justify;
+  font-size: 12px;
+  color: maroon;
+}
+.Tool_List{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  margin: 0;
+  font-size: 10px;
+}
+.Link_cont{
+  position: absolute;
+  width: 33%;
+  height: 70px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: 255px;
+  right: 15px;
+  display: flex;
+  justify-content: center;
+  border: solid maroon 2px;
+}
+.Link{
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  margin-top: 5px;
+  width: 55%;
+  background-color: maroon;
+  padding: 3px;
+  text-align: center;
+  border-radius: 20px;
+}
+.Name{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 80%;
+  text-align: justify;
+  font-size: 10px;
+}
+.Email{
+  position: absolute;
+  top: 43px;
+  left: 15px;
+  width: 80%;
+  text-align: justify;
+  font-size: 9px;
+}
+.Number{
+  position: absolute;
+  top: 48px;
+  left: 15px;
+  width: 80%;
+  text-align: justify;
+  font-size: 9px;
+}
+.Project_cont{
+  position: absolute;
+  width: 91%;
+  height: 175px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  top: 335px;
+  left: 4.40%;
+  display: flex;
+  justify-content: center;
+  border: solid maroon 2px;
+}
+.Project{
+  position: absolute;
+  font-size: 15px;
+  color: white;
+  margin-top: 7px;
+  width: 55%;
+  background-color: maroon;
+  padding: 3px;
+  text-align: center;
+  border-radius: 20px;
+}
+.line6{
+  position: absolute;
+  width: 1.50px;
+  height: 70%;
+  background-color: maroon;
+  border: none;
+  top: 32px;
+  right: center;
+}
+.Project_Title{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  font-size: 10px;
+  color: maroon;
+}
+.Title{
+  position: absolute;
+  top: 55px;
+  left: 15px;
+  margin: 0;
+  font-size: 8px;
+}
+.Description{
+  position: absolute;
+  top: 70px;
+  margin: 0;
+  left: 10px;
+  font-size: 10px;
+  color: maroon;
+}
+.Descrip{
+  position: absolute;
+  top: 85px;
+  left: 15px;
+  margin: 0;
+  font-size: 9.40px;
+  width: 42%;
+  text-align: justify;
+}
+.Role{
+  position: absolute;
+  top: 40px;
+  right: 140px;
+  font-size: 10px;
+  color: maroon;
+  margin: 0;
+}
+.Lead{
+  position: absolute;
+  top: 55px;
+  right: 113px;
+  margin: 0;
+  font-size: 8px;
+}
+.Outcome{
+  position: absolute;
+  top: 70px;
+  margin: 0;
+  right: 121px;
+  font-size: 10px;
+  color: maroon;
+}
+.Out{
+  position: absolute;
+  top: 83px;
+  right: 10px;
+  margin: 0;
+  font-size: 8px;
+  width: 42%;
+  text-align: justify;
+}
