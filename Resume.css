@@ -1,541 +1,511 @@
 body{
   background-color: whitesmoke;
-  padding: 0;
   margin: 0;
-  display: flex;
-  justify-content: center;
+  padding: 0;
 }
 .profile{
-  height: 90px;
-  border: solid maroon 10px;
+  width: 21%;
+  border: solid maroon 2vw;
   border-radius: 50%;
-  position: absolute;
-  margin-top: 10px;
-}
-.Personal_Information{
-  position: absolute;
-  background-color: whitesmoke;
-  width: 90%;
-  height: 199px;
-  margin-top: 110px;
-  margin-bottom: 20px;
+  margin: 10px auto 0;
   display: flex;
-  justify-content: center;
-  
 }
 .name{
-  position: absolute;
-  font-size: 22px;
-  margin-top: 0;
-  width: 60%;
-  height: 30px;
-  background-color: maroon;
+  margin: 0 auto;
   color: white;
+  display: flex;
+  width: 50%;
+  height: 7vw;
+  font-size: 5vw;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: maroon;
+}
+.contact{
+  position: relative;
+  width: 94%;
+  height: 50vw;
+  background-color: white;
+  border-radius: 1vw;
+  border: solid maroon 1vw;
+  display: flex;
+  margin-top: 2vw;
+  margin-left: 2%;
+}
+.contact_me{
+  color: white;
+  font-size: 3vw;
+  width: 20%;
+  height: 5vw;
+  font-size: 3vw;
+  background-color: maroon;
+  border-radius: 1.50vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
-  
-}
-.contact{
   position: absolute;
-  width: 100%;
-  height: 150px;
-  margin-top: 40px;
-  background-color: white;
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-  border: solid maroon 5px;
-}
-.contact_me{
-  position: absolute;
-  top: 15px;
-  right: 21px;
-  color: white;
-  font-size: 10px;
-  width: 17%;
-  padding: 4px;
-  background-color: maroon;
-  text-align: center;
-  border-radius: 15px;
+  top: 5vw;
+  right: 4.50vw;
 }
 .line3{
   position: absolute;
-  width: 1.50px;
-  height: 92%;
+  width: .50vw;
+  height: 46vw;
   background-color: maroon;
   border: none;
-  top: center;
-  right: 30%;
+  top: .35vw;
+  right: 28vw;
 }
 .p_logo{
   position: absolute;
-  top: 59px;
-  right: 15px;
-  width: 12px;
-  height: 12px;
+  top: 17vw;
+  right: 22vw;
+  width: 4vw;
+  border-radius: 50%;
+}
+.fb_logo{
+  position: absolute;
+  top: 24vw;
+  right: 22vw;
+  width: 4vw;
+  border-radius: 50%;
+}
+.gmail_logo{
+  position: absolute;
+  top: 31vw;
+  right: 22vw;
+  width: 4vw;
+  border-radius: 50%;
+}
+.github_logo{
+  position: absolute;
+  top: 38vw;
+  right: 22vw;
+  width: 4vw;
   border-radius: 50%;
 }
 .number{
   position: absolute;
-  top: 50px;
-  right: 35px;
-  font-size: 10px;
+  top: 15vw;
+  left: 73vw;
+  font-size: 3vw;
   color: black;
-}
-.fb_logo{
-  position: absolute;
-  top: 79px;
-  right: 15px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
 }
 .fb_name{
   position: absolute;
-  top: 80px;
-  right: 35px;
-  font-size: 10px;
+  top: 24.50vw;
+  left: 73vw;
+  font-size: 3vw;
   color: black;
-}
-.gmail_logo{
-  position: absolute;
-  top: 100px;
-  right: 15px;
-  width: 12px;
-  height: 12px;
-  background-color: white;
-  border-radius: 50%;
 }
 .email{
   position: absolute;
-  top: 100px;
-  right: 35px;
-  font-size: 10px;
+  top: 31.50vw;
+  left: 73vw;
+  font-size: 3vw;
   color: black;
-}
-.github_logo{
-  position: absolute;
-  top: 120px;
-  right: 15px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
 }
 .github_account{
   position: absolute;
-  top: 120px;
-  right: 35px;
-  font-size: 10px;
+  top: 38.50vw;
+  left: 73vw;
+  font-size: 3vw;
   color: black;
 }
 .Introduction{
   position: absolute;
-  top: 5px;
-  left: 55px;
+  top: 5vw;
+  left: 14vw;
   color: white;
-  font-size: 15px;
+  font-size: 3.50vw;
   margin: 0;
   width: 40%;
-  padding: 4px;
+  height: 5vw;
   background-color: maroon;
-  text-align: center;
-  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.50vw;
 }
 .Introduce{
   position: absolute;
   background-color: white;
-  width: 59.50%;
-  height: 100px;
-  top: 22px;
-  left: 20px;
+  width: 65%;
+  height: 35vw;
+  top: 10vw;
+  left: 2.50%;
   display: flex;
-  font-size: 12px;
+  font-size: 3.40vw;
   text-align: justify;
-  text-indent: 30px;
+  text-indent: 7vw;
   line-height: 1.26;
 }
 .container{
-  position: absolute;
-  width: 90%;
-  height: 520px;
-  margin: 320px 20px 0;
+  position: relative;
+  width: 94%;
+  height: 163vw;
+  margin: 2vw 2% 0;
   background-color: white;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  border: solid maroon 5px;
+  border-radius: 1vw;
+  border: solid maroon 1vw;
 }
 .Education_cont{
   position: absolute;
   width: 55%;
-  height: 310px;
+  height: 74vw;
   background-color: whitesmoke;
-  border-radius: 10px;
-  top: 15px;
-  left: 15px;
+  border-radius: 1.50vw;
+  top: 2vw;
+  left: 3vw;
   display: flex;
   justify-content: center;
-  border: solid maroon 2px;
+  border: solid maroon .50vw;
 }
 .Education{
   position: absolute;
-  font-size: 15px;
+  font-size: 4vw;
   color: white;
-  margin-top: 10px;
+  margin-top: 3vw;
   width: 55%;
+  height: 5.20vw;
   background-color: maroon;
-  padding: 5px;
-  text-align: center;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.50vw;
 }
 .Primary{
   position: absolute;
-  font-size: 15px;
+  font-size: 3.50vw;
   color: maroon;
-  margin-top: 45px;
-  left: 10px;
+  margin-top: 11vw;
+  left: 3vw;
 }
 .OCCES{
   position: absolute;
-  font-size: 11px;
+  font-size: 2.50vw;
   color: black;
-  margin-top: 65px;
-  left: 20px;
+  margin-top: 15vw;
+  left: 5vw;
 }
 .Year_1{
   position: absolute;
-  font-size: 8.50px;
+  font-size: 1.70vw;
   color: maroon;
-  margin-top: 80px;
-  left: 23px;
+  margin-top: 18vw;
+  left: 5vw;
 }
 .Secondary{
   position: absolute;
-  font-size: 15px;
+  font-size: 3.50vw;
   color: maroon;
-  margin-top: 95px;
-  left: 10px;
+  margin-top: 22vw;
+  left: 3vw;
 }
 .Junior{
   position: absolute;
-  font-size: 13px;
+  font-size: 3.10vw;
   color: darkgreen;
-  margin-top: 115px;
-  left: 15px;
+  margin-top: 25.50vw;
+  left: 4vw;
 }
 .MONHS_1{
   position: absolute;
-  font-size: 11px;
+  font-size: 2.50vw;
   color: black;
-  margin-top: 130px;
-  left: 20px;
+  margin-top: 29.50vw;
+  left: 5vw;
 }
 .Senior{
   position: absolute;
-  font-size: 13px;
+  font-size: 3.10vw;
   color: darkgreen;
-  margin-top: 145px;
-  left: 15px;
+  margin-top: 33vw;
+  left: 4vw;
 }
 .MONHS_2{
   position: absolute;
-  font-size: 11px;
+  font-size: 2.50vw;
   color: black;
-  margin-top: 160px;
-  left: 20px;
+  margin-top: 37vw;
+  left: 5vw;
 }
 .HUMMS{
   position: absolute;
-  font-size: 10px;
+  font-size: 2.30vw;
   color: black;
-  margin-top: 170px;
-  left: 20px;
+  margin-top: 39.50vw;
+  left: 5vw;
 }
 .Year_2{
   position: absolute;
-  font-size: 8.50px;
+  font-size: 1.70vw;
   color: maroon;
-  margin-top: 185px;
-  left: 23px;
+  margin-top: 42.50vw;
+  left: 5vw;
 }
 .Tertiary{
   position: absolute;
-  font-size: 15px;
+  font-size: 3.50vw;
   color: maroon;
-  margin-top: 200px;
-  left: 10px;
+  margin-top: 46.50vw;
+  left: 3vw;
 }
 .USTP{
   position: absolute;
-  font-size: 11px;
+  font-size: 2.50vw;
   color: black;
-  margin-top: 220px;
-  left: 20px;
+  margin-top: 50.50vw;
+  left: 5vw;
 }
 .BSIT{
   position: absolute;
-  font-size: 10px;
+  font-size: 2.30vw;
   color: black;
-  margin-top: 242px;
-  left: 20px;
+  margin-top: 55.50vw;
+  left: 5vw;
 }
 .Year_3{
   position: absolute;
-  font-size: 8.50px;
+  font-size: 1.70vw;
   color: maroon;
-  margin-top: 257px;
-  left: 23px;
+  margin-top: 58.50vw;
+  left: 5vw;
 }
 .Work{
   position: absolute;
-  font-size: 15px;
+  font-size: 3.50vw;
   color: maroon;
-  margin-top: 272px;
-  left: 10px;
+  margin-top: 62.50vw;
+  left: 3vw;
 }
 .INTERN{
   position: absolute;
-  font-size: 11px;
+  font-size: 2.50vw;
   color: black;
-  margin-top: 292px;
-  left: 20px;
+  margin-top: 66.50vw;
+  left: 5vw;
 }
 .Month{
   position: absolute;
-  font-size: 8.50px;
+  font-size: 1.70vw;
   color: maroon;
-  margin-top: 294px;
-  left: 157px;
+  margin-top: 69.50vw;
+  left: 5vw;
 }
 .Skill_cont{
   position: absolute;
-  width: 33%;
-  height: 230px;
+  width: 35%;
+  height: 55vw;
   background-color: whitesmoke;
-  border-radius: 10px;
-  top: 15px;
-  right: 15px;
+  border-radius: 1.50vw;
+  top: 2vw;
+  right: 3vw;
   display: flex;
   justify-content: center;
-  border: solid maroon 2px;
+  border: solid maroon .50vw;
 }
 .Skill{
   position: absolute;
-  font-size: 15px;
+  font-size: 3vw;
   color: white;
-  margin-top: 10px;
+  margin-top: 3vw;
   width: 55%;
+  height: 4vw;
   background-color: maroon;
-  padding: 5px;
-  text-align: center;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.50vw;
 }
 .Technical{
   position: absolute;
-  top: 40px;
-  left: 5px;
-  width: 80%;
-  text-align: justify;
-  font-size: 12px;
+  margin-top: 11vw;
+  left: 1.50vw;
+  font-size: 3vw;
   color: maroon;
 }
 .Technical_List{
   position: absolute;
-  top: 65px;
-  left: 10px;
-  margin: 0;
-  font-size: 10px;
+  margin-top: 15vw;
+  margin-right: 2vw;
+  left: 2.50vw;
+  text-align: justify;
+  font-size: 2.20vw;
 }
 .Soft{
   position: absolute;
-  top: 85px;
-  left: 5px;
-  width: 80%;
-  text-align: justify;
-  font-size: 12px;
+  margin-top: 22vw;
+  left: 1.50vw;
+  font-size: 3vw;
   color: maroon;
 }
 .Soft_List{
   position: absolute;
-  top: 110px;
-  left: 10px;
-  margin: 0;
-  font-size: 10px;
+  margin-top: 26vw;
+  margin-right: 2vw;
+  left: 2.50vw;
+  text-align: justify;
+  font-size: 2.20vw;
 }
 .Language{
   position: absolute;
-  top: 130px;
-  left: 5px;
-  width: 80%;
-  text-align: justify;
-  font-size: 12px;
+  margin-top: 32.50vw;
+  left: 1.50vw;
+  font-size: 3vw;
   color: maroon;
 }
 .Language_List{
   position: absolute;
-  top: 155px;
-  left: 10px;
-  margin: 0;
-  font-size: 10px;
+  margin-top: 36.50vw;
+  margin-right: 2vw;
+  left: 2.50vw;
+  text-align: justify;
+  font-size: 2.20vw;
 }
 .Tool{
   position: absolute;
-  top: 175px;
-  left: 5px;
-  width: 80%;
+  margin-top: 43.50vw;
+  left: 1.50vw;
   text-align: justify;
-  font-size: 12px;
+  font-size: 3vw;
   color: maroon;
 }
 .Tool_List{
   position: absolute;
-  top: 200px;
-  left: 10px;
-  margin: 0;
-  font-size: 10px;
+  margin-top: 47.50vw;
+  margin-right: 2vw;
+  left: 2.50vw;
+  text-align: justify;
+  font-size: 2.20vw;
 }
 .Link_cont{
   position: absolute;
-  width: 33%;
-  height: 70px;
+  width: 35%;
+  height: 17vw;
   background-color: whitesmoke;
-  border-radius: 10px;
-  top: 255px;
-  right: 15px;
+  border-radius: 1.50vw;
+  top: 59vw;
+  right: 3vw;
   display: flex;
   justify-content: center;
-  border: solid maroon 2px;
+  border: solid maroon .50vw;
 }
 .Link{
   position: absolute;
-  font-size: 10px;
+  font-size: 3vw;
   color: white;
-  margin-top: 5px;
+  margin-top: 1.50vw;
   width: 55%;
   background-color: maroon;
-  padding: 3px;
-  text-align: center;
-  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.50vw;
 }
 .Name{
   position: absolute;
-  top: 20px;
-  left: 15px;
-  width: 80%;
-  text-align: justify;
-  font-size: 10px;
+  margin-top: 7vw;
+  left: 3vw;
+  font-size: 2.30vw;
 }
 .Email{
   position: absolute;
-  top: 43px;
-  left: 15px;
-  width: 80%;
-  text-align: justify;
-  font-size: 9px;
+  margin-top: 9.50vw;
+  left: 3vw;
+  font-size: 2.30vw;
 }
 .Number{
   position: absolute;
-  top: 48px;
-  left: 15px;
-  width: 80%;
-  text-align: justify;
-  font-size: 9px;
+  margin-top: 12.50vw;
+  left: 3vw;
+  font-size: 2.30vw;
 }
 .Project_cont{
-  position: absolute;
-  width: 91%;
-  height: 175px;
+  position: relative;
+  width: 93%;
+  height: 82vw;
   background-color: whitesmoke;
-  border-radius: 10px;
-  top: 335px;
-  left: 4.40%;
+  border-radius: 1.50vw;
+  top: 78vw;
+  left: 3vw;
   display: flex;
   justify-content: center;
-  border: solid maroon 2px;
+  border: solid maroon .50vw;
 }
 .Project{
   position: absolute;
-  font-size: 15px;
+  font-size: 4vw;
   color: white;
-  margin-top: 7px;
+  margin-top: 3vw;
   width: 55%;
+  height: 5.20vw;
   background-color: maroon;
-  padding: 3px;
-  text-align: center;
-  border-radius: 20px;
-}
-.line6{
-  position: absolute;
-  width: 1.50px;
-  height: 70%;
-  background-color: maroon;
-  border: none;
-  top: 32px;
-  right: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.50vw;
 }
 .Project_Title{
   position: absolute;
-  top: 30px;
-  left: 10px;
-  font-size: 10px;
+  margin-top: 11vw;
+  left: 3vw;
+  font-size: 4vw;
   color: maroon;
 }
 .Title{
   position: absolute;
-  top: 55px;
-  left: 15px;
-  margin: 0;
-  font-size: 8px;
+  margin-top: 15vw;
+  left: 4.40vw;
+  font-size: 3vw;
+  text-indent: 3vw;
 }
 .Description{
   position: absolute;
-  top: 70px;
-  margin: 0;
-  left: 10px;
-  font-size: 10px;
+  margin-top: 20vw;
+  left: 3vw;
+  font-size: 4vw;
   color: maroon;
 }
 .Descrip{
   position: absolute;
-  top: 85px;
-  left: 15px;
-  margin: 0;
-  font-size: 9.40px;
-  width: 42%;
+  margin-top: 24vw;
+  left: 4.40vw;
+  font-size: 3vw;
+  width: 91.20%;
   text-align: justify;
+  text-indent: 3vw;
 }
 .Role{
   position: absolute;
-  top: 40px;
-  right: 140px;
-  font-size: 10px;
+  margin-top: 42vw;
+  left: 3vw;
+  font-size: 4vw;
   color: maroon;
-  margin: 0;
 }
 .Lead{
   position: absolute;
-  top: 55px;
-  right: 113px;
-  margin: 0;
-  font-size: 8px;
+  margin-top: 46vw;
+  left: 4.40vw;
+  font-size: 3vw;
+  width: 91.20%;
+  text-align: justify;
+  text-indent: 3vw;
 }
 .Outcome{
   position: absolute;
-  top: 70px;
-  margin: 0;
-  right: 121px;
-  font-size: 10px;
+  margin-top: 50vw;
+  left: 3vw;
+  font-size: 4vw;
   color: maroon;
 }
 .Out{
   position: absolute;
-  top: 83px;
-  right: 10px;
-  margin: 0;
-  font-size: 8px;
-  width: 42%;
+  margin-top: 54vw;
+  left: 4.40vw;
+  font-size: 3vw;
+  width: 91.20%;
   text-align: justify;
+  text-indent: 3vw;
 }
